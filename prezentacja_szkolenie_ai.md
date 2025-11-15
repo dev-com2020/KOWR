@@ -6,11 +6,12 @@
 
 1. Wprowadzenie do sztucznej inteligencji
 2. Zastosowania AI w administracji publicznej
-3. Praktyczne narzędzia AI
-4. Organizacja pracy z wykorzystaniem AI
-5. Warsztaty praktyczne
-6. Bezpieczeństwo i RODO
-7. Rezultaty szkolenia
+3. AI Act - Unijne rozporządzenie o AI
+4. Praktyczne narzędzia AI
+5. Organizacja pracy z wykorzystaniem AI
+6. Warsztaty praktyczne
+7. Bezpieczeństwo i RODO
+8. Rezultaty szkolenia
 
 ---
 
@@ -78,6 +79,314 @@
 - **Transparentność**: Obowiązek informowania o wykorzystaniu AI
 
 ⚖️ **Zasada**: Zawsze sprawdzaj, czy dane można przetwarzać za pomocą AI!
+
+---
+
+## AI Act - Wprowadzenie
+
+### Czym jest AI Act?
+
+🇪🇺 **Rozporządzenie Parlamentu Europejskiego i Rady (EU) 2024/1689**
+
+- Pierwsze na świecie kompleksowe prawo regulujące sztuczną inteligencję
+- Przyjęte przez Parlament Europejski w marcu 2024 r.
+- Wchodzi w życie stopniowo od sierpnia 2024 r.
+- Pełne wdrożenie: sierpień 2026 r.
+
+🎯 **Cel**: Zapewnienie bezpiecznego i etycznego wykorzystania AI w UE
+
+---
+
+## AI Act - Główne zasady
+
+### Na czym opiera się rozporządzenie?
+
+📋 **Kluczowe założenia**:
+
+1. **Podejście oparte na ryzyku** - różne wymogi dla różnych poziomów ryzyka
+2. **Ochrona praw podstawowych** - prawa człowieka i godności
+3. **Transparentność** - jasne informowanie o wykorzystaniu AI
+4. **Nadzór człowieka** - human oversight
+5. **Odpowiedzialność** - jasny podział obowiązków
+
+💡 **Idea**: Im większe ryzyko, tym surowsze wymagania!
+
+---
+
+## AI Act - Klasyfikacja ryzyka
+
+### Cztery poziomy ryzyka systemów AI
+
+🔴 **Ryzyko nieakceptowalne** - systemy ZAKAZANE
+
+🟠 **Wysokie ryzyko** - ścisła regulacja, wymogi zgodności
+
+🟡 **Ograniczone ryzyko** - wymogi transparentności
+
+🟢 **Minimalne ryzyko** - brak szczególnych obowiązków
+
+---
+
+## AI Act - Systemy zakazane 🔴
+
+### Czego NIE WOLNO robić?
+
+❌ **Zakazane praktyki AI**:
+
+1. **Manipulacja poznawcza** - wykorzystywanie słabości określonych grup
+2. **Social scoring** - punktowanie obywateli przez władze publiczne
+3. **Identyfikacja biometryczna w czasie rzeczywistym** w miejscach publicznych (z wyjątkami)
+4. **Rozpoznawanie emocji** w miejscu pracy i szkołach
+5. **Nieskategoryzowane zbieranie danych** biometrycznych z internetu
+6. **Przewidywanie popełnienia przestępstw** na podstawie profilowania
+
+⚖️ Naruszenie: kary do 35 mln EUR lub 7% globalnego obrotu!
+
+---
+
+## AI Act - Systemy wysokiego ryzyka 🟠
+
+### Kiedy system AI jest wysokiego ryzyka?
+
+🏛️ **W administracji publicznej - WAŻNE!**:
+
+- Dostęp do świadczeń publicznych i usług
+- Wydawanie decyzji administracyjnych
+- Zarządzanie migracją, azylem, kontrolą graniczną
+- Wymiar sprawiedliwości i procesy demokratyczne
+
+🔍 **Inne obszary**:
+- Rekrutacja i zarządzanie pracownikami
+- Dostęp do edukacji i szkoleń zawodowych
+- Ocena zdolności kredytowej
+- Usługi ratunkowe
+
+---
+
+## AI Act - Wymagania dla systemów wysokiego ryzyka
+
+### Co musi spełniać system wysokiego ryzyka?
+
+✅ **Obowiązkowe wymagania**:
+
+1. **System zarządzania ryzykiem**
+2. **Zarządzanie danymi** - wysokiej jakości zestawy danych
+3. **Dokumentacja techniczna**
+4. **Przejrzystość** - informacje dla użytkowników
+5. **Nadzór człowieka** - human oversight
+6. **Dokładność, odporność i cyberbezpieczeństwo**
+7. **Logging** - automatyczne rejestrowanie zdarzeń
+8. **Ocena zgodności** przed wprowadzeniem na rynek
+
+---
+
+## AI Act - Systemy ograniczonego ryzyka 🟡
+
+### Wymogi transparentności
+
+💬 **Obowiązek informowania użytkowników**:
+
+- Chatboty i asystenci AI - użytkownik musi wiedzieć, że rozmawia z AI
+- Deepfake i treści syntetyczne - oznaczanie generowanych treści
+- Systemy rozpoznawania emocji - transparentność wykorzystania
+- Systemy kategoryzacji biometrycznej - informowanie o przetwarzaniu
+
+📢 **W praktyce**: "Ta treść została wygenerowana przez AI"
+
+---
+
+## AI Act - Systemy minimalnego ryzyka 🟢
+
+### Większość systemów AI
+
+✅ **Przykłady**:
+- Filtry antyspamowe
+- Gry wideo z AI
+- Systemy rekomendacji produktów
+- Podstawowe narzędzia AI do redakcji tekstu
+
+📋 **Obowiązki**: Brak szczególnych wymagań prawnych
+
+💡 **Ale**: Nadal obowiązują ogólne przepisy (RODO, prawa konsumenta, itp.)
+
+---
+
+## AI Act - Modele AI ogólnego przeznaczenia (GPAI)
+
+### ChatGPT, Claude, Gemini i podobne
+
+🤖 **General Purpose AI Models (GPAI)**:
+
+**Standardowe GPAI**:
+- Transparentność - dokumentacja techniczna
+- Przestrzeganie praw autorskich
+- Publikacja streszczenia treści treningowych
+
+**GPAI z ryzykiem systemowym** (>10²⁵ FLOP):
+- Dodatkowe oceny ryzyka
+- Testy adversarialne
+- Monitorowanie incydentów
+- Cyberbezpieczeństwo
+
+---
+
+## AI Act - Obowiązki dostawców AI
+
+### Kto jest odpowiedzialny jako dostawca?
+
+👨‍💼 **Dostawca (Provider)**:
+- Rozwija system AI
+- Wprowadza na rynek lub do użytku
+
+📋 **Główne obowiązki**:
+1. Zapewnienie zgodności z AI Act
+2. System zarządzania jakością
+3. Dokumentacja techniczna
+4. Procedury monitorowania po wprowadzeniu
+5. Zgłaszanie poważnych incydentów
+6. Oznakowanie CE dla systemów wysokiego ryzyka
+7. Współpraca z organami nadzoru
+
+---
+
+## AI Act - Obowiązki użytkowników AI
+
+### Nasza odpowiedzialność w administracji!
+
+👥 **Użytkownik (Deployer)**:
+- Wykorzystuje system AI w ramach działalności zawodowej
+- **TO MY - urzędnicy używający AI!**
+
+📋 **Nasze obowiązki**:
+1. Wykorzystywanie AI zgodnie z instrukcjami
+2. Nadzór człowieka (human oversight)
+3. Monitorowanie funkcjonowania AI
+4. Przechowywanie logów (dla systemów wysokiego ryzyka)
+5. Zgłaszanie incydentów i nieprawidłowości
+6. **Ocena wpływu na prawa podstawowe** (FRIA)
+
+---
+
+## AI Act - Ocena wpływu na prawa podstawowe (FRIA)
+
+### Fundamental Rights Impact Assessment
+
+📊 **Kiedy wymagana?**
+
+Użytkownicy systemów wysokiego ryzyka w sektorze publicznym MUSZĄ przeprowadzić FRIA przed wdrożeniem!
+
+✅ **Co zawiera FRIA?**:
+1. Opis systemu AI i jego przewidywane zastosowanie
+2. Wpływ na prawa podstawowe
+3. Środki łagodzące ryzyko
+4. Konsultacje z zainteresowanymi stronami
+5. Procedury monitorowania po wdrożeniu
+
+⚠️ **Ważne**: Dotyczy WSZYSTKICH organów publicznych!
+
+---
+
+## AI Act - Terminy wdrożenia
+
+### Kiedy wchodzą w życie poszczególne przepisy?
+
+📅 **Harmonogram**:
+
+- **2 lutego 2025** - Zakaz systemów zakazanych
+- **2 sierpnia 2025** - Przepisy dot. modeli GPAI
+- **2 sierpnia 2026** - Pełne wdrożenie dla systemów wysokiego ryzyka
+- **2 sierpnia 2027** - Systemy wysokiego ryzyka już na rynku
+
+⏰ **Teraz (2025)**: Czas na przygotowania!
+
+---
+
+## AI Act w praktyce administracji
+
+### Co to znaczy dla KOWR i innych urzędów?
+
+🏛️ **Praktyczne implikacje**:
+
+✅ **Można (z ostrożnością)**:
+- Asystenci tekstowi (ChatGPT, Copilot) - MINIMALNE RYZYKO
+- Narzędzia do analizy danych wewnętrznych
+- Automatyzacja prostych procesów administracyjnych
+
+⚠️ **Wymaga FRIA i pełnej zgodności**:
+- Systemy decyzyjne (przyznawanie świadczeń)
+- Rekrutacja pracowników
+- Ocena beneficjentów programów
+
+❌ **ZABRONIONE**:
+- Ocena pracowników przez monitoring emocji
+- Social scoring obywateli
+
+---
+
+## AI Act - Najważniejsze zasady dla urzędnika
+
+### Praktyczny przewodnik
+
+✅ **Zapamiętaj**:
+
+1. 🤔 **Oceń ryzyko** - jaki to system AI?
+2. 📋 **Sprawdź kategorię** - minimalne, ograniczone czy wysokie ryzyko?
+3. 🔍 **Informuj** - powiedz obywatelom, że używasz AI (gdzie wymagane)
+4. 👤 **Nadzoruj** - zawsze weryfikuj wyniki AI
+5. 📝 **Dokumentuj** - zapisuj jak i do czego używasz AI
+6. 🚨 **Zgłaszaj incydenty** - jeśli coś pójdzie nie tak
+7. 🎓 **Ucz się** - przepisy się rozwijają
+
+💡 **Złota zasada**: W razie wątpliwości - zapytaj IOD lub prawnika!
+
+---
+
+## AI Act - Sankcje i kary
+
+### Konsekwencje nieprzestrzegania
+
+⚖️ **Wysokość kar administracyjnych**:
+
+- **35 mln EUR** lub **7% globalnego obrotu** - naruszenie zakazów
+- **15 mln EUR** lub **3% globalnego obrotu** - naruszenie obowiązków dot. systemów wysokiego ryzyka
+- **7,5 mln EUR** lub **1,5% globalnego obrotu** - podanie nieprawdziwych informacji
+
+🏛️ **Dla organów publicznych**: Kary mogą być nakładane na instytucje!
+
+---
+
+## AI Act - Organy nadzorcze
+
+### Kto kontroluje zgodność?
+
+🇵🇱 **W Polsce**:
+- **Prezes UODO** - główny organ nadzorczy ds. AI
+- Współpraca z organami sektorowymi
+
+🇪🇺 **Na poziomie UE**:
+- **AI Office** w Komisji Europejskiej
+- **European Artificial Intelligence Board**
+- Krajowe organy nadzorcze
+
+📞 **W razie pytań**: Prezes UODO - uodo.gov.pl
+
+---
+
+## AI Act - Zasoby i wsparcie
+
+### Gdzie szukać informacji?
+
+🌐 **Oficjalne źródła**:
+- **AI Act - pełny tekst**: eur-lex.europa.eu
+- **Komisja Europejska**: digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+- **UODO**: uodo.gov.pl (polskie wytyczne)
+- **AI Office**: ai-office@ec.europa.eu
+
+📚 **Praktyczne narzędzia**:
+- Przewodniki dla użytkowników AI
+- Szablony FRIA
+- Checklisty zgodności
+- Webinary i szkolenia
 
 ---
 
